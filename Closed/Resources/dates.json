@@ -1,0 +1,311 @@
+{
+    "years": {
+        "year": 2020,
+        "months": [
+            {
+                "name": "January",
+                "dates": [
+                    {
+                        "day": 1,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 5,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 6,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 12,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 19,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 26,
+                        "status": "open"
+                    }
+                ]
+            },
+            {
+                "name": "February",
+                "dates": [
+                    {
+                        "day": 2,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 9,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 16,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 23,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "March",
+                "dates": [
+                    {
+                        "day": 1,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 8,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 15,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 22,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 29,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "April",
+                "dates": [
+                    {
+                        "day": 5,
+                        "status": "open"
+                    },
+                    {
+                        "day": 12,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 13,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 19,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 26,
+                        "status": "open"
+                    }
+                ]
+            },
+            {
+                "name": "May",
+                "dates": [
+                    {
+                        "day": 1,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 3,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 10,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 17,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 24,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 31,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "June",
+                "dates": [
+                    {
+                        "day": 7,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 11,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 14,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 21,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 28,
+                        "status": "open"
+                    }
+                ]
+            },
+            {
+                "name": "July",
+                "dates": [
+                    {
+                        "day": 5,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 12,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 19,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 26,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "August",
+                "dates": [
+                    {
+                        "day": 2,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 9,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 15,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 16,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 23,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 30,
+                        "status": "open"
+                    }
+                ]
+            },
+            {
+                "name": "September",
+                "dates": [
+                    {
+                        "day": 6,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 13,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 20,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 27,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "October",
+                "dates": [
+                    {
+                        "day": 4,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 11,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 18,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 25,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "November",
+                "dates": [
+                    {
+                        "day": 1,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 8,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 11,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 15,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 22,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 29,
+                        "status": "closed"
+                    }
+                ]
+            },
+            {
+                "name": "December",
+                "dates": [
+                    {
+                        "day": 6,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 13,
+                        "status": "open"
+                    },
+                    {
+                        "day": 20,
+                        "status": "open"
+                    },
+                    {
+                        "day": 25,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 26,
+                        "status": "closed"
+                    },
+                    {
+                        "day": 27,
+                        "status": "closed"
+                    }
+                ]
+            }
+        ]
+    }
+}
