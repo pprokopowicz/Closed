@@ -58,6 +58,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2420C7F523A4E8C0008960C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24EFA23623A4E65F00BEDF29 /* Assets.xcassets */,
+				24EFA23B23A4E65F00BEDF29 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2420C7F623A4E8D1008960C8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				24EFA23023A4E65C00BEDF29 /* AppDelegate.swift */,
+				24EFA23223A4E65C00BEDF29 /* SceneDelegate.swift */,
+				24EFA23E23A4E65F00BEDF29 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2420C7F723A4E951008960C8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				24EFA23423A4E65C00BEDF29 /* ContentView.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		24EFA22423A4E65C00BEDF29 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +106,9 @@
 		24EFA22F23A4E65C00BEDF29 /* Closed */ = {
 			isa = PBXGroup;
 			children = (
-				24EFA23023A4E65C00BEDF29 /* AppDelegate.swift */,
-				24EFA23223A4E65C00BEDF29 /* SceneDelegate.swift */,
-				24EFA23423A4E65C00BEDF29 /* ContentView.swift */,
-				24EFA23623A4E65F00BEDF29 /* Assets.xcassets */,
-				24EFA23B23A4E65F00BEDF29 /* LaunchScreen.storyboard */,
-				24EFA23E23A4E65F00BEDF29 /* Info.plist */,
+				2420C7F623A4E8D1008960C8 /* Configuration */,
+				2420C7F723A4E951008960C8 /* Module */,
+				2420C7F523A4E8C0008960C8 /* Resources */,
 				24EFA23823A4E65F00BEDF29 /* Preview Content */,
 			);
 			path = Closed;
@@ -366,7 +390,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Closed/Preview Content\"";
 				DEVELOPMENT_TEAM = NE64KXLJA8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Closed/Info.plist;
+				INFOPLIST_FILE = Closed/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +410,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Closed/Preview Content\"";
 				DEVELOPMENT_TEAM = NE64KXLJA8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Closed/Info.plist;
+				INFOPLIST_FILE = Closed/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
