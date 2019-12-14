@@ -20,3 +20,11 @@ struct DateModel: Decodable {
     }
     
 }
+
+extension DateModel: Samplable {
+    
+    static var sample: DateModel {
+        DateModel(name: "Sunday", day: 10, status: .closed)
+    }
+    
+}

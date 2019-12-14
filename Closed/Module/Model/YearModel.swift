@@ -14,3 +14,11 @@ struct YearModel: Decodable {
     let months: [MonthModel]
     
 }
+
+extension YearModel: Samplable {
+    
+    static var sample: YearModel {
+        YearModel(year: 2020, months: [MonthModel.sample, MonthModel.sample, MonthModel.sample, MonthModel.sample])
+    }
+    
+}
