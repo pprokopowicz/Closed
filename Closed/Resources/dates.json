@@ -1,5 +1,50 @@
 [
     {
+        "year": 2019,
+        "months": [
+            {
+                "name": "December",
+                "dates": [
+                    {
+                        "name": "Sunday",
+                        "day": 1,
+                        "status": "closed"
+                    },
+                    {
+                        "name": "Sunday",
+                        "day": 8,
+                        "status": "closed"
+                    },
+                    {
+                        "name": "Sunday",
+                        "day": 15,
+                        "status": "open"
+                    },
+                    {
+                        "name": "Sunday",
+                        "day": 22,
+                        "status": "open"
+                    },
+                    {
+                        "name": "Wednesday",
+                        "day": 25,
+                        "status": "closed"
+                    },
+                    {
+                        "name": "Thursday",
+                        "day": 26,
+                        "status": "closed"
+                    },
+                    {
+                        "name": "Sunday",
+                        "day": 29,
+                        "status": "open"
+                    },
+                ]
+            }
+        ]
+    },
+    {
         "year": 2020,
         "months": [
             {
