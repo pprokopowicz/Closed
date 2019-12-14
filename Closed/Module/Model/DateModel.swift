@@ -10,6 +10,7 @@ import Foundation
 
 struct DateModel: Decodable {
     
+    let name: String
     let day: Int
     let status: Status
     
