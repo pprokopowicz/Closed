@@ -147,6 +147,12 @@
                     },
                     {
                         "name": "Sunday",
+                        "day": 11,
+                        "status": "open",
+                        "hour": "14:00"
+                    },
+                    {
+                        "name": "Sunday",
                         "day": 12,
                         "status": "closed"
                     },
@@ -394,6 +400,12 @@
                         "name": "Sunday",
                         "day": 20,
                         "status": "open"
+                    },
+                    {
+                        "name": "Thursday",
+                        "day": 24,
+                        "status": "open",
+                        "hour": "14:00"
                     },
                     {
                         "name": "Friday",

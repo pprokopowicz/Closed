@@ -10,28 +10,21 @@ import SwiftUI
 
 struct DayView: View {
     
-    @State var day: DateModel
+    var day: DateItem
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("\(day.day)\(day.day.oridinalIndicator)")
-                .font(.system(size: 35, weight: .bold, design: .default))
+            Text(day.day)
+                .font(.system(size: 30, weight: .bold, design: .default))
             HStack {
                 Text(day.name)
-                    .font(.system(size: 30))
+                    .font(.system(size: 25))
                     .foregroundColor(.gray)
                 Spacer()
-                Text(day.status.rawValue)
-                    .font(.system(size: 30))
-                    .foregroundColor(color(for: day.status))
+                Text(day.status.description)
+                    .font(.system(size: 25))
+                    .foregroundColor(day.status.color)
             }
-        }
-    }
-    
-    private func color(for status: DateModel.Status) -> Color {
-        switch status {
-        case .open: return .green
-        case .closed: return .red
         }
     }
     
@@ -39,6 +32,6 @@ struct DayView: View {
 
 struct DayView_Previews: PreviewProvider {
     static var previews: some View {
-        DayView(day: DateModel.sample)
+        DayView(day: DateItem.sample)
     }
 }

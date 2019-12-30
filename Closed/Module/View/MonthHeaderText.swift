@@ -14,7 +14,7 @@ struct MonthHeaderText: View {
     
     var body: some View {
         Text(text)
-            .font(.system(size: 45, weight: .bold, design: .default))
+            .font(.system(size: 40, weight: .bold, design: .default))
             .foregroundColor(.blue)
     }
     

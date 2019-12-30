@@ -10,7 +10,7 @@ import SwiftUI
 
 struct YearView: View {
     
-    @State var year: YearModel
+    var year: YearItem
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -24,6 +24,6 @@ struct YearView: View {
 
 struct YearView_Previews: PreviewProvider {
     static var previews: some View {
-        YearView(year: YearModel.sample)
+        YearView(year: YearItem.sample)
     }
 }

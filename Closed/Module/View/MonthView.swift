@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MonthView: View {
     
-    @State var month: MonthModel
+    var month: MonthItem
     
     var body: some View {
         Section(header: MonthHeaderText("\(month.name)")) {
@@ -25,6 +25,6 @@ struct MonthView: View {
 
 struct MonthView_Previews: PreviewProvider {
     static var previews: some View {
-        MonthView(month: MonthModel.sample)
+        MonthView(month: MonthItem.sample)
     }
 }

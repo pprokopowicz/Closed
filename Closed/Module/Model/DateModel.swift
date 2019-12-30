@@ -13,6 +13,7 @@ struct DateModel: Decodable {
     let name: String
     let day: Int
     let status: Status
+    let hour: String?
     
     enum Status: String, Decodable {
         case open
@@ -24,7 +25,7 @@ struct DateModel: Decodable {
 extension DateModel: Samplable {
     
     static var sample: DateModel {
-        DateModel(name: "Sunday", day: 10, status: .closed)
+        DateModel(name: "Sunday", day: 10, status: .closed, hour: nil)
     }
     
 }

@@ -14,7 +14,7 @@ struct YearHeaderText: View {
     
     var body: some View {
         Text(Formatter.withoutSeparator.string(for: year) ?? "")
-            .font(.system(size: 30))
+            .font(.system(size: 25))
     }
     
     init(_ year: Int) {

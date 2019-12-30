@@ -10,14 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var model = Bundle.main.decode([YearModel].self, from: "dates.json")
+    var viewModel: TradeViewModelProtocol
+    
+    init(viewModel: TradeViewModelProtocol = TradeViewModel()) {
+        self.viewModel = viewModel
+    }
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(0 ..< model.count) { index in
-                    Section(header: YearHeaderText(self.model[index].year)) {
-                        YearView(year: self.model[index])
+                ForEach(0 ..< viewModel.numberOfItems) { index in
+                    Section(header: YearHeaderText(self.viewModel.item(for: index).year)) {
+                        YearView(year: self.viewModel.item(for: index))
                     }
                 }
             }.navigationBarTitle("Closed")
